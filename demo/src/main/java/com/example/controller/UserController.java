@@ -8,11 +8,11 @@ public class UserController {
 
 	@GetMapping("/")
 	public String index() {
-		return "index";
+		return "index.html";
 	}
 	
 	@GetMapping("/userForm")
 	public String getUserForm() {
-		return "user-form/user-view";
+		return "user-form/user-view.html";
 	}	
 }
